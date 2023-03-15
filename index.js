@@ -1,10 +1,10 @@
-function introduction( name="Aki"){
+function introduction( name="Isaac"){
     return  `Hi, my name is ${name}.`;
 }
-function introductionWithLanguage(name="Aki",language="Ember.js"){
+function introductionWithLanguage(name="Isaac",language="Ember.js"){
     return `Hi, my name is ${name} and I am learning to program in ${language}.`;
 }
-function introductionWithLanguageOptional(name="Aki",_language="JavaScript"){
+function introductionWithLanguageOptional(name="Isaac",_language="JavaScript"){
     return `Hi, my name is ${name} and I am learning to program in ${_language}.`;
 
 }
